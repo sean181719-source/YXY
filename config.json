@@ -1,0 +1,12 @@
+{
+  "log": { "level": "info" },
+  “入场”：[{
+    "type": "vless",
+    标签：vless-in，
+    “听”： ”：：”，
+    "listen_port": 8080,
+    "users": [{ "uuid": "ca7c9762-f88c-4bea-92f7-9a36b99af973" }],
+    "transport": { "type": "ws", "path": "/chat" }
+  }],
+  "出站": [{ "type": "direct", "tag": "direct" }]
+}
